@@ -1,12 +1,12 @@
 import Typography from "typography"
 
 const typography = new Typography({
-  baseFontSize: "18px",
+  baseFontSize: "12px",
   baseLineHeight: 1.666,
   headerFontFamily: [
     "Avenir Next",
     "Avenir Next",
-    "Segoe UI",
+    "Avenir Next",
     "Helvetica",
     "Arial",
     "sans-serif",
