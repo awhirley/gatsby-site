@@ -19,13 +19,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
+        name: `whirley_personal-portfolio-site`,
+        short_name: `whirley_personal`,
+        start_url: `/home`,
         background_color: `#37234a`,
         theme_color: `#37234a`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/unicorn-icon.png`, // This path is relative to the root of the site.
       },
     },
     {
