@@ -11,10 +11,6 @@
     grid-row: 2 / span 1;
 }
 
-.image_position {
-    width: 300px;
-}
-
 .intro_item {
     grid-column: 3 / span 1;
     grid-row: 2 / span 1;

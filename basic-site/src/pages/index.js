@@ -13,9 +13,7 @@ const IndexPage = () => (
     <div class='grid-container'>
 
       <div class='image_item'>
-        <div class='image_position'>
-          <Image />
-        </div>
+        <Image />
       </div>
 
       <div class='intro_item'>
