@@ -1,15 +1,17 @@
+// Gatsby supports TypeScript natively!
 import React from "react"
+import { Link } from "gatsby"
 
-import Header from '../components/header';
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
-export default function About() {
-  return (
-    <>
-    <Header siteTitle='test header' />
-    <div style={{ color: `teal` }}>
-      <h1>About Gatsby</h1>
-      <p>Such wow. Very React.</p>
-    </div>
-    </>
-  )
-}
+const SecondPage = () => (
+  <Layout>
+    <SEO title="Page two" />
+    <h1>Hi from the About Me page.</h1>
+    <p>psych!!! no more info here yet</p>
+    <Link to="/">Go back to the homepage</Link>
+  </Layout>
+)
+
+export default SecondPage

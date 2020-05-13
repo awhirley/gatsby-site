@@ -27,8 +27,8 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <main>{children}</main>
-      <footer class="sticky-footer">
-        © Whirley {new Date().getFullYear()}, built with Gatsby
+      <footer>
+        © Whirley {new Date().getFullYear()}
       </footer>
     </>
   )
