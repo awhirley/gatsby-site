@@ -68,7 +68,6 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
   margin: 0.67em 0;
 }
 mark {
@@ -117,7 +116,6 @@ input,
 optgroup,
 select,
 textarea {
-  font: inherit;
   margin: 0;
 }
 optgroup {
@@ -189,10 +187,8 @@ textarea {
 }
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
-  font: inherit;
 }
 html {
-  font: 112.5%/1.45em Verdana, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
