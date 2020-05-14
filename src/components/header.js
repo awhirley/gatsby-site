@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import { FaLinkedin, FaGithubSquare } from 'react-icons/fa'
@@ -8,15 +7,10 @@ import '../components/main.css'
 const Header = ({ siteTitle }) => (
   <header class='header-style'>
     <div class='title'>
-      <h3 class='bottom-zero'>
-        <Link to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
+      <h3>
+        <a href="/" class='link-style' >
           {siteTitle}
-        </Link>
+        </a>
       </h3>
     </div>
     <div class='menu'>
