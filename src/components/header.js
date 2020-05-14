@@ -1,25 +1,15 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import { FaLinkedin } from 'react-icons/fa'
+import { FaLinkedin, FaGithubSquare } from 'react-icons/fa'
+
+import '../components/main.css'
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `#37234a`,
-      marginBottom: `0.5rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `0.5rem 1.0875rem`,
-      }}
-    >
-      <h3 style={{ margin: 0 }}>
-        <Link
-          to="/"
+  <header class='header-style'>
+    <div class='title'>
+      <h3 class='bottom-zero'>
+        <Link to="/"
           style={{
             color: `white`,
             textDecoration: `none`,
@@ -29,11 +19,9 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h3>
     </div>
-      <FaLinkedin />
-    <div>
-
-
-
+    <div class='menu'>
+      <FaLinkedin size={25} class='icon'/>
+      <FaGithubSquare size={25} class='icon'/>
     </div>
   </header>
 )
