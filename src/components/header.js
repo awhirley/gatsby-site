@@ -20,8 +20,8 @@ const Header = ({ siteTitle }) => (
       </h3>
     </div>
     <div class='menu'>
-      <FaLinkedin size={25} class='icon'/>
-      <FaGithubSquare size={25} class='icon'/>
+      <a href='https://www.linkedin.com/in/alexwhirley/'><FaLinkedin size={25} class='icon'/></a>
+      <a href='https://github.com/awhirley/'><FaGithubSquare size={25} class='icon'/></a>
     </div>
   </header>
 )
