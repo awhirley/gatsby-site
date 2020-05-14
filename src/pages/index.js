@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-import "../components/homepage.css"
+import "../components/main.css"
 
 const IndexPage = () => (
   <Layout>
