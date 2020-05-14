@@ -17,7 +17,7 @@ const IndexPage = () => (
       </div>
 
       <div class='intro_item'>
-        <h1>Hi people</h1>
+        <h1>Hi people 👋🏻</h1>
 
         <p>I'm Alex!</p>
         <p><code>Here's my website.</code></p>
