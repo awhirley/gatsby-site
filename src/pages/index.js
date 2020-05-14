@@ -19,10 +19,12 @@ const IndexPage = () => (
       <div class='intro_item'>
         <h1>Hi people 👋🏻</h1>
 
-        <p>I'm Alex!</p>
-        <p><code>Here's my website.</code></p>
+        <p>I'm Alex! I'm a software engineer with a creative side. It's nice to meet you!</p>
       
-        <Link to="/about/">Read more about me here!</Link>
+        <Link to="/about/">> About</Link>
+        <Link to="/projects/">> Projects</Link>
+        <Link to="/outreach/">> Outreach</Link>
+        <Link to="/contact/">> Contact</Link>
       </div>
 
     </div>
