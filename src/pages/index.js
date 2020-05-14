@@ -21,10 +21,12 @@ const IndexPage = () => (
 
         <p>I'm Alex! I'm a software engineer with a creative side. It's nice to meet you!</p>
       
-        <Link to="/about/">> About</Link>
-        <Link to="/projects/">> Projects</Link>
-        <Link to="/outreach/">> Outreach</Link>
-        <Link to="/contact/">> Contact</Link>
+        <h4>
+          <a href="/about/" class='menu-link'>> About</a><br />
+          <a href="/projects/" class='menu-link'>> Projects</a><br />
+          <a href="/outreach/" class='menu-link'>> Outreach</a><br />
+          <a href="/contact/" class='menu-link'>> Contact</a><br />
+        </h4>
       </div>
 
     </div>

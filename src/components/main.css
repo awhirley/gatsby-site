@@ -50,6 +50,17 @@ code {
     grid-row: 2 / span 1;
 }
 
+.menu-link {
+    color: #37234a;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+.menu-link:hover {
+    color: yellow;
+    background: #37234a;
+}
+
 /* header */
 
 .header-style {
