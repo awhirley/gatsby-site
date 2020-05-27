@@ -31,7 +31,6 @@ const SecondPage = () => (
           <img src={ BearImage }/>
           <img src={ PragueImage }/>
           <img src={ AustinImage }/>
-          <img src={ SnowImage }/>
           <img src={ ZionImage }/>
         </div>
 
