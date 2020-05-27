@@ -10,6 +10,8 @@ const ProjectsPage = () => (
     <SEO title="projects" />
     <h1>Hi from the Projects page.</h1>
     <p>psych!!! no more info here yet</p>
+    <a href="/" class='menu-link'>&larr; back home</a><br />
+    <a href="/about/" class='menu-link'>&larr; back to the About page</a>
   </Layout>
 )
 

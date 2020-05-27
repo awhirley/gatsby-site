@@ -22,10 +22,10 @@ const IndexPage = () => (
         <p>I'm Alex! I'm a software engineer with a creative side. It's nice to meet you!</p>
       
         <h4>
-          <a href="/about/" class='menu-link'>> About</a><br />
-          <a href="/projects/" class='menu-link'>> Projects</a><br />
-          <a href="/outreach/" class='menu-link'>> Outreach</a><br />
-          <a href="/contact/" class='menu-link'>> Contact</a><br />
+          <a href="/about/" class='menu-link'>About &rarr;</a><br />
+          <a href="/projects/" class='menu-link'>Projects &rarr;</a><br />
+          <a href="/outreach/" class='menu-link'>Outreach &rarr;</a><br />
+          <a href="/contact/" class='menu-link'>Contact &rarr;</a><br />
         </h4>
       </div>
 
