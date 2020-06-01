@@ -19,14 +19,9 @@ const IndexPage = () => (
       <div class='intro_item'>
         <h1>Hi people 👋🏻</h1>
 
-        <p>I'm Alex! I'm a software engineer with a creative side. It's nice to meet you!</p>
-      
-        <h4>
-          <a href="/about/" class='menu-link'>About &rarr;</a><br />
-          <a href="/projects/" class='menu-link'>Projects &rarr;</a><br />
-          <a href="/outreach/" class='menu-link'>Outreach &rarr;</a><br />
-          <a href="/contact/" class='menu-link'>Contact &rarr;</a><br />
-        </h4>
+        <p>I'm Alex! I'm a software engineer with a creative side. <br />
+        It's nice to meet you!</p>
+
       </div>
 
     </div>

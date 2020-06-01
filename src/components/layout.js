@@ -13,6 +13,11 @@ import Header from "./header"
 import Sidebar from "./sidebar"
 import "./main.css"
 
+const mainStyle = {
+  marginLeft: '50px',
+  marginRight: '50px'
+}
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -28,7 +33,7 @@ const Layout = ({ children }) => {
     <>
       <Sidebar />
       <Header siteTitle={data.site.siteMetadata.title} />
-      <main>{children}</main>
+      <main style={mainStyle}>{children}</main>
       <footer>
         © Whirley {new Date().getFullYear()}
       </footer>
