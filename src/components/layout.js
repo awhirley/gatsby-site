@@ -1,48 +1,41 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
+import React from 'react'
+import '../assets/scss/main.scss'
 
-import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import Footer from './Footer'
 
-import Header from "./header"
-import Sidebar from "./sidebar"
-import "./main.css"
-
-const mainStyle = {
-  marginLeft: '50px',
-  marginRight: '50px'
-}
-
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
+class Template extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      loading: 'is-loading'
     }
-  `)
+  }
 
-  return (
-    <>
-      <Sidebar />
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <main style={mainStyle}>{children}</main>
-      <footer>
-        © Whirley {new Date().getFullYear()}
-      </footer>
-    </>
-  )
+  componentDidMount () {
+    this.timeoutId = setTimeout(() => {
+        this.setState({loading: ''});
+    }, 100);
+  }
+
+  componentWillUnmount () {
+    if (this.timeoutId) {
+        clearTimeout(this.timeoutId);
+    }
+  }
+
+  render() {
+    const { children } = this.props
+
+    return (
+      <div className={`body ${this.state.loading}`}>
+        <div id="wrapper">
+
+          {children}
+          <Footer />
+        </div>
+      </div>
+    )
+  }
 }
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
-
-export default Layout
+export default Template
