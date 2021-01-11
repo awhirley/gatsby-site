@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
       <Sidebar />
       <Header siteTitle={data.site.siteMetadata.title} />
       <main style={mainStyle}>{children}</main>
-      <footer>
+      <footer class='browser'>
         © Whirley {new Date().getFullYear()}
       </footer>
     </>
