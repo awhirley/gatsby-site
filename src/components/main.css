@@ -242,3 +242,7 @@ code {
     color: white;
     margin-top: 7.5px;
 }
+
+.feature-flagged {
+    display: none;
+}

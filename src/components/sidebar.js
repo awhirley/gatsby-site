@@ -13,7 +13,7 @@ const Sidebar = ({ activeSelection }) => (
       <span class="menu-text">about me</span>
       <FaUserAstronaut size={25} class='sidebar-icon'/>
     </a>
-    <a href="/projects/" id="experience">
+    <a class='feature-flagged' href="/projects/" id="experience">
       <span class="menu-text">experience</span>
       <FaFolderOpen size={25} class='sidebar-icon'/>
     </a>
