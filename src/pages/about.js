@@ -52,15 +52,15 @@ const SecondPage = () => (
             It's a two year rotational program with four 6-month rotations. I was able to move around to different locations,
             experience diverse roles, and gain a large breadth of knowledge about various business processes,
             organizations within the business, and build my network right out of college. <br />
-            <a href="/dtlp/" class='menu-link left-space'>Learn more about my experiences on DTLP &rarr;</a>
+            {/* <a href="/dtlp/" class='menu-link left-space'>Learn more about my experiences on DTLP &rarr;</a> */}
           </p>
 
           <p>
-            A few months after I began my new job, I suppose I must've missed classes and homework because I decided to begin
-            classes towards a Masters Degree at Georgia Tech in their OMSCS program. Although there has been some stress and occasional procrastination,
-            I have been able to learn some really cool things and complete very interesting projects.
-            I am currently working on my 9th class out of 10, so I'll see you at graduation at the end of 2020! <br />
-            <a href="/projects/" class='menu-link left-space'>Learn more about projects I've done during the program &rarr;</a>
+            At the end of 2020 I graduation from Georgia Tech with a Masters Degree in Computer Science!
+            I specialized in Computational Perception and Robotics in their OMSCS program.
+            I took several classes in artifical intelligence and machine learning, and
+            I was able to learn some really cool things and complete really interesting projects. <br />
+            {/* <a href="/projects/" class='menu-link left-space'>Learn more about projects I've done during the program &rarr;</a> */}
           </p>
         </div>
       </div>

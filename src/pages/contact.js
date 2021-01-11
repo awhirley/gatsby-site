@@ -7,8 +7,17 @@ import SEO from "../components/seo"
 const ContactPage = () => (
   <Layout>
     <SEO title="contact" />
-    <h1>Hi from the Contact page.</h1>
-    <p>psych!!! no more info here yet</p>
+    <div class='contact-grid'>
+
+      <div class='contact-text'>
+        <h2>Let's chat. 📲</h2>
+        <p>
+          Email me! &rarr; <a href="mailto:alexwhirley@gmail.com" class='menu-link'>alexwhirley@gmail.com</a><br />
+          Connect with me! &rarr; <a href="https://www.linkedin.com/in/alexwhirley/" class='menu-link'>LinkedIn</a>
+        </p>
+      </div>
+
+    </div>
   </Layout>
 )
 
