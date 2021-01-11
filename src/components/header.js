@@ -8,8 +8,11 @@ const Header = ({ siteTitle }) => (
   <header class='header-style'>
     <div class='title'>
       <h3>
-        <a href="/" class='link-style' >
+        <a href="/" class='link-style browser' >
           {siteTitle}
+        </a>
+        <a href="/" class='link-style mobile' >
+          alexwhirley
         </a>
       </h3>
     </div>

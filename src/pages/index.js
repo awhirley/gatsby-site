@@ -1,9 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+
+import MeImage from "../images/me.jpg"
 
 import "../components/main.css"
 
@@ -13,7 +13,7 @@ const IndexPage = () => (
     <div class='grid-container'>
 
       <div class='image_item'>
-        <Image />
+        <img src={ MeImage }/>
       </div>
 
       <div class='intro_item'>

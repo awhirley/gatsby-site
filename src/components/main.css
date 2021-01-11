@@ -61,6 +61,23 @@ code {
     background: #37234a;
 }
 
+@media only screen and (max-width: 768px) {
+    .grid-container {
+       display: block;
+    }
+
+    .image_item {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .intro_item {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 
 /* about page */
 
@@ -145,6 +162,24 @@ code {
 
 .icon:hover {
     color: yellow;
+}
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .mobile {
+        display: inline;
+    }
+
+    .browser {
+        display: none;
+    }
 }
 
 
