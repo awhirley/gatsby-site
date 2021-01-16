@@ -210,11 +210,15 @@ code {
 .project-title-text {
     font-size: 2vw;
     font-weight: bold;
+    text-decoration: none;
+    color: #37234a;
 }
 
-.arrow {
-    text-align: right;
+.project-title-text:hover {
+    color: yellow;
+    background: #37234a;
 }
+
 
 @media only screen and (max-width: 768px) {
     .projects-grid {

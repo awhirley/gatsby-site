@@ -4,15 +4,15 @@ import { FaArrowCircleRight } from 'react-icons/fa'
 
 import '../components/main.css'
 
-const ProjectCard = ({ title, description }) => (
+const ProjectCard = ({ title, description, link }) => (
   <div>
     <div class='project-title'>
-      <span class='project-title-text'>{ title }</span><br />
+      <span class='project-title-text'>{ title }</span>
+      <a class='project-title-text feature-flagged' href={link}>{ title }</a>
     </div>
-    <p>{ description }</p>
-    <div class='arrow'>
-      <FaArrowCircleRight size={28} class='menu-link'/>
-    </div>
+    <p>
+      { description }<br />
+    </p>
   </div>
 )
 
